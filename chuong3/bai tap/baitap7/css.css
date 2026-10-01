@@ -1,0 +1,19 @@
+body{
+    font-family: Arial;
+    margin: 0;
+
+}
+.menu{
+    width: 200px;
+    float: left;
+}
+.menu a{
+    display: block;
+    padding:10px;
+    border:1px solid black;
+}
+
+.noidung{
+    margin-left:220px;
+    padding:10px;
+}

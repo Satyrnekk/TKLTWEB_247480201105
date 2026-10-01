@@ -1,0 +1,18 @@
+body{
+    background-color: lightyellow;
+}
+h1{
+    color:red;
+}
+p{
+    font-family: Verdana;
+    color: green;
+}
+ol{
+    font-family: Verdana;
+    color: green;
+}
+ul{
+    font-family: 'Times New Roman';
+    color: blue;
+}
