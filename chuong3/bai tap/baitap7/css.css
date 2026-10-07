@@ -2,18 +2,56 @@ body{
     font-family: Arial;
     margin: 0;
 
+/*  text-decoration: underline; ( dùng để trang trí chữ)
+margin: 0; (khoảng cách mặc định của trang)
+background-color: #333; ( màu nền của phần tử )
+
+*/
 }
+.khung{
+    width:800px;
+    height: 260px;
+    margin:20px auto;
+    border: 1px solid black;
+    display:flex;
+
+}
+/* 
+display: block; ( cách 1 phần tử hiển thị)
+value:block( chiếm cả 1 hàng ), inline phần tử nằm cùng hàng với phần tử khác còn chỗ
+border: 1px solid black;(tạo viền đen cho khung)
+ */
 .menu{
-    width: 200px;
-    float: left;
+    width: 250px;
+    background-color: #333;
 }
+/* width: 250px;(chiều rộng khung
+ 
+ */
 .menu a{
     display: block;
-    padding:10px;
-    border:1px solid black;
+    padding:8px 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+
+    
 }
+/* padding:8px 15px;(tạo khoảng cách bên trong link
+color: white;( màu chữ màu trắng )
+font-weight: bold;( đặt kiểu chữ in đậm)
+
+ */
 
 .noidung{
-    margin-left:220px;
-    padding:10px;
+   flex:1;
+   padding: 10px 15px;
+   background-color: #ddd;
 }
+/*  flex:1;( chiếm phần không gian )
+*/
+.noidung h2{
+    margin-top: 10px;
+}
+/* 
+margin-top: 10px;( khoảng cách phía trên 10px) */
