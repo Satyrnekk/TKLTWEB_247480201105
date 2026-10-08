@@ -1,24 +1,32 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <script>
-      document.write("<h1> tao button bằng script </h1><br>");
-      document.write("<br>");
-      function thongbao(txt) {
-        alert(txt);
-      }
-    </script>
-    <form>
-      <input
-        type="button"
-        name="callthongbao"
-        value="thông báo "
-        onclick="thongbao('welcome to javascript!')"
-      />
-    </form>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    document.write("<h1> tạo button bằng script </h1><br>");
+    document.write("<br>"); 
+    function thongbao(txt) {
+      alert(txt);
+    }
+    //Tạo một hàm có tên là thongbao.
+    //txt là tham số, dùng để nhận nội dung muốn thông báo.
+    alert(txt);
+  </script>
+  <form>//Tạo một biểu mẫu (form) HTML.
+    <input type="button" name="callthongbao" value="thông báo " onclick="thongbao('welcome to javascript!')" />
+    //Tạo một phần tử nhập liệu HTML , type="button" Xác định đây là nút bấm.Đặt tên cho nút là
+    callthongbao,value="thông báo "
+    quy định chữ xuất hiện trên nút.onclick="thongbao('welcome to javascript!')"
+    onclick nghĩa là khi người dùng click vào nút.chương trình gọi hàm:thongbao
+  </form>
+
+
+
+</body>
+
 </html>
